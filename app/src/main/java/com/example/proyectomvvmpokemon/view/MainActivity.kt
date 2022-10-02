@@ -1,7 +1,8 @@
-package com.example.proyectomvvmpokemon
+package com.example.proyectomvvmpokemon.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
+import com.example.proyectomvvmpokemon.R
 
 class MainActivity : AppCompatActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {

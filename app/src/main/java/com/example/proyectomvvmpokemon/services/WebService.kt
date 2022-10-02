@@ -7,6 +7,6 @@ import retrofit2.http.GET
 interface WebService {
     @GET("pokedex.json")//aca va consumir el servicio de la url completa
 
-    suspend fun getPokemos(): Response<PokemonResponse>
+    suspend fun getPokemons(): Response<PokemonResponse>
 
 }
