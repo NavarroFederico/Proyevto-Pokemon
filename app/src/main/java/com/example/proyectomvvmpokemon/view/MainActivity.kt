@@ -13,4 +13,5 @@ class MainActivity : AppCompatActivity() {
         binding = DataBindingUtil.setContentView(this,R.layout.activity_main)
         setContentView(binding.root)
     }
+    // me quede en el tutorial 1:10:15
 }

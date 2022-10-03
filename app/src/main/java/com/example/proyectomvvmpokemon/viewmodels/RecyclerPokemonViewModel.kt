@@ -56,7 +56,7 @@ class RecyclerPokemonViewModel(app: Application) : AndroidViewModel(app), Corout
         itemDataSelected = item
     }
 
-    fun fechtPokemonData() {//me va traer los datos del backend del api server
+    fun fetchPokemonData() {//me va traer los datos del backend del api server
         _progressState.value = true
         viewModelScope.launch {
             val response = repository.getPokemon()
