@@ -12,7 +12,7 @@ import com.example.proyectomvvmpokemon.model.PokemonDataModel
 import com.example.proyectomvvmpokemon.view.fragments.ClickListener
 import com.example.proyectomvvmpokemon.view.viewholder.ItemViewHolder
 
-class ItemsAdapter(private val listener: ClickListener):RecyclerView.Adapter<ItemViewHolder>() {
+class ItemsAdapter(private val listener: ClickListener): RecyclerView.Adapter<ItemViewHolder>() {
     private val resource = R.layout.pokemon_row
     lateinit var context: Context
     private val itemList = mutableListOf<PokemonDataModel>()

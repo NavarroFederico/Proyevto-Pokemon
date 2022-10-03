@@ -9,7 +9,7 @@ import java.util.concurrent.TimeUnit
 
 object RetrofitClient {
     private var retrofit: Retrofit? = null
-    private const val BASE_URL = "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master"
+    private const val BASE_URL = "https://raw.githubusercontent.com/Biuni/PokemonGO-Pokedex/master/"
 //aca pasamos la base url de la api cortamos "pokedex.json" para que cuando desde el GET de la interface se pegue con esta base
 
     //hago el get para consumir el servicio

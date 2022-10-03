@@ -9,12 +9,12 @@ class ItemViewHolder(binding: PokemonRowBinding): RecyclerView.ViewHolder(bindin
     private var binding: PokemonRowBinding? = null
 
     init {
-        this.binding= binding
+        this.binding = binding
     }
 
-    fun setItem(model: PokemonDataModel){
-        binding?.let {
-            view->view.name = model.name
+    fun setItem(model: PokemonDataModel) {
+        binding?.let { view->
+            view.name = model.name
 
             Glide.with(view.root.context).load(model.img).into(view.imgCharacter)
         }
